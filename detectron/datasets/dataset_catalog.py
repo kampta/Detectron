@@ -62,6 +62,30 @@ _DATASETS = {
         _RAW_DIR:
             _DATA_DIR + '/cityscapes/raw'
     },
+    'coco_2017_train': {
+        _IM_DIR:
+            _DATA_DIR + '/coco/images/train2017',
+        _ANN_FN:
+            _DATA_DIR + '/coco/annotations/instances_train2017.json'
+    },
+    'coco_2017_val': {
+        _IM_DIR:
+            _DATA_DIR + '/coco/images/val2017',
+        _ANN_FN:
+            _DATA_DIR + '/coco/annotations/instances_val2017.json'
+    },
+    'docs_train': {
+        _IM_DIR:
+            '/vulcan/scratch/kampta/data/PubLayNet/data/detectron/medline/train',
+        _ANN_FN:
+            '/vulcan/scratch/kampta/data/PubLayNet/train.json'
+    },
+    'docs_val': {
+        _IM_DIR:
+            '/vulcan/scratch/kampta/data/PubLayNet/data/detectron/medline/dev',
+        _ANN_FN:
+            '/vulcan/scratch/kampta/data/PubLayNet/dev.json'
+    },
     'coco_2014_train': {
         _IM_DIR:
             _DATA_DIR + '/coco/coco_train2014',
